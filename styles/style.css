@@ -3,6 +3,7 @@
 
 * {
     margin: 0;
+    padding: 0;
     font-family: 'Noto Sans', sans-serif;
     box-sizing: border-box;
 }
@@ -14,6 +15,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-size: cover;
 }
 
 .left-login {
@@ -79,6 +81,7 @@
     box-shadow: 0px 10px 40px #00000056;
     outline: none;
     box-sizing: border-box;
+    transition: 0.4s;
 }
 
 .textfield > label {
@@ -105,6 +108,9 @@
     background: #00ff88;
     cursor: pointer;
     box-shadow: 0px 10px 40px -12px #00ff8052;
+}
+button:hover {
+    color: white;
 }
 
 @media only screen and (max-width: 950px) {
